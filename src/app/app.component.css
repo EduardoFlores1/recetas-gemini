@@ -1,0 +1,92 @@
+.contenedor {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+
+.cabecera {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 5px 1px rgb(49, 49, 49);
+  height: 10vh;
+  background-color: white;
+}
+
+.cabecera__titulo {
+  color: rgb(100, 226, 100);
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  height: 75vh;
+  display: flex;
+  padding: 50px;
+  background-color: white;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+  box-shadow:1px 3px 5px 1px rgb(177, 177, 177);
+}
+.load {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+.load__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.load__data__titulo-img {
+  margin: 5px 0px;
+  color: blueviolet;
+}
+.load__data__titulo-img span {
+  color: black;
+}
+.load__data__boton {
+  margin-top: 20px;
+  height: 35px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(122, 224, 122);;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.load__data__boton:hover {
+  cursor: pointer;
+}
+.load__preview {
+  width: 75%;
+  margin-top: 20px;
+}
+
+.receta {
+  width: 50%;
+  overflow-y: auto;
+  padding: 0px 20px;
+}
+
+.receta__titulo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.receta h3 {
+  color: blueviolet;
+}
+.receta span {
+  color: black;
+  font-weight: 400;
+}
